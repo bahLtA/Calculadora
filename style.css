@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #141414;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container {
+    max-width: 60vh;
+    height: 80vh;
+    margin: 10vh auto 0 auto;
+    border: 1px solid white;
+
+}
+
+#display {
+    text-align: right;
+    font-size: 6.5vh;
+    height: 15vh;
+    background-color: white;
+
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 15vh 15vh 15vh 15vh;
+
+}
+.boton{
+    line-height: 13vh;
+    height: 13vh;
+    border: 1px solid lightgray;
+    text-align: center;
+    background-color: white;
+    font-size: 4vh;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.boton:hover {
+    background-color: #C8FCEA;
+}
+
+#igual {
+    background-color: #00C896;
+}
+
+#igual:hover {
+    background-color: #518071;
+}
