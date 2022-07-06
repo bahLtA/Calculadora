@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-    max-width: 60vh;
-    height: 80vh;
+    width: 75%;
+    height: 80%;
     margin: 10vh auto 0 auto;
     border: 1px solid white;
 
@@ -23,16 +23,16 @@ body {
 
 .botones{
     display: grid;
-    grid-template-columns: 15vh 15vh 15vh 15vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 .boton{
-    line-height: 13vh;
-    height: 13vh;
+    line-height: 10vh;
+    height: 10vh;
     border: 1px solid lightgray;
     text-align: center;
     background-color: white;
-    font-size: 4vh;
+    font-size: 3vh;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
